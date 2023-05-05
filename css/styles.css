@@ -1,0 +1,769 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    line-height: 2rem;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+    padding: 0 5%;
+}
+
+.nav-link{
+    font-family: 'montserrat-light';
+    font-size: 1.2rem;
+}
+
+.nav-link:hover{
+    color: #62CDFF;
+}
+
+.dropdown-menu{
+    padding: 7%;
+}
+
+.dropdown-item:hover{
+    color: #62CDFF;
+}
+
+.home{
+    color: #62CDFF;
+}
+
+.header-img{
+    width: 100%;
+}
+
+.meeting{
+    height: 40rem;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.hood{
+    height: 40rem;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.frau{
+    height: 40rem;
+    filter: blur(7px);
+    -webkit-filter: blur(7px);
+}
+
+h2{
+    font-family: "montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#carouselExampleAutoplaying{
+    color: whitesmoke;
+}
+
+.scammed{
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    right: 25%;
+    top: 30%;
+    z-index: 1;
+    text-decoration: none;
+}
+
+
+.consultancy{
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    right: 25%;
+    top: 30%;
+    z-index: 1;
+    
+}
+
+.fraud-investigator{
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    right: 25%;
+    top: 30%;
+    z-index: 1;
+    text-decoration: none;
+}
+
+@media(max-width:900px){
+    .consultancy{
+        position: absolute;
+        top: 20%;
+    }
+
+    .fraud-investigator{
+        position: absolute;
+        top: 20%;
+    }
+}
+
+.btn{
+    border-radius: 10px;
+    background-color: #62CDFF;
+}
+
+.btn:hover{
+    border: 1px solid #62CDFF;
+    color: white;
+}
+
+.review-text{
+    padding: 5% 5% 0;
+    color: #4D455D;
+}
+
+.card-row{
+    padding: 5%;
+    text-align: left;
+}
+
+.review-card{
+    padding: 3%;
+    border-radius: 15px;
+    box-shadow:7px 7px 7px grey;
+    margin: 1rem;
+    color:#4D455D;
+}
+
+.icon{
+    color: #62CDFF;
+}
+
+.icon-review{
+    text-align: left;
+    margin-bottom: 1.5rem;
+    color: #62CDFF;
+}
+
+
+.icon-review:hover{
+    color: white;
+}
+
+
+.card-title{
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.card-text{
+    margin-top: 3%;
+}
+
+.review-card:hover{
+    background-color: #62CDFF;
+    color: white;
+}
+
+.number-review{
+    padding: 5%;
+}
+
+.happy{
+    color: #4D455D;
+}
+
+.number-review-1{
+    margin: 1rem;
+}
+
+.number-review-icon{
+    float: left;
+    margin-right: 1.5rem;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.number-review-text{
+    box-shadow: 7px 7px 7px grey;
+    font-weight:900;
+    margin: 1rem;
+}
+
+.about-heading{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 4px;
+}
+
+.hr-about{
+    width: 5%;
+    text-align: center;
+    margin: auto;
+    padding:20px 0;
+    border-width: 3px;
+    color: #62CDFF;
+}
+
+.meeting-row{
+    padding: 0 5%;
+}
+
+.nike{
+    float: left;
+    margin: 7px 7px 0 0 ;
+    color: #62CDFF;
+}
+
+.image-about-h{
+    width: 100%;
+    height: 100%;
+}
+
+.About-text{
+    padding: 1rem;
+    color: #4D455D;
+}
+
+.services-heading{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 4px;
+}
+
+.hr-services{
+    width: 5%;
+    text-align: center;
+    margin: auto;
+    padding:20px 0;
+    border-width: 3px;
+    color: #62CDFF;
+}
+
+.service-card{
+    margin: 1rem 0;
+    border-radius: 0;
+    color: #4D455D;
+}
+
+.card-body-service{
+    padding: 5%;
+    text-align: center;
+}
+
+.service-card:hover{
+    background-color: #62CDFF;
+    color: white;
+}
+
+.pic-icon{
+    width: 35px;
+    margin: 1.5rem 0;
+}
+
+.pic-icon:hover{
+    color: white;
+}
+
+.row-service{
+    padding: 0 5%;
+}
+
+.card-title-service{
+    font-weight: 900;
+}
+
+.what-do-heading{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    padding: 2rem 0 1rem;
+}
+
+.what-do-rule{
+    width: 5%;
+    text-align: center;
+    margin: auto;
+    padding:20px 0;
+    border-width: 3px;
+    color: #62CDFF;
+}
+
+.what-do-row{
+    padding: 5%;
+    color: #4D455D;
+}
+
+.for-you{
+    margin-bottom: 1rem;
+}
+
+.lost-found{
+    margin-bottom: 1rem;
+}
+
+.our-mission{
+    padding: 5%;
+    background-color: #454545;
+    color: white;
+}
+
+.arrow{
+    color: #62CDFF;
+    margin-right: 0.5rem;
+}
+
+.useful-links{
+    background-color:#434242;
+    color: white;
+    padding: 5%;
+}
+
+#footer{
+    background-color: #454545;
+    text-align: center;
+    color: white;
+    padding: 2%;
+}
+
+.review-p{
+    font-weight: 900;
+}
+
+.links-arrow{
+    color: white;
+}
+
+.links-arrow:hover{
+    color: #62CDFF;
+}
+
+.use-links{
+    padding: 1rem;
+}
+
+.service-links{
+    padding: 1rem;
+}
+
+.cont-links{
+    padding: 1rem;
+}
+
+.abo-links{
+    padding: 1rem;
+}
+
+.foot{
+    margin-bottom: 1rem;
+}
+
+
+
+/*ABOUT*/
+
+
+.About-head{
+    padding: 4% 5% 1%;
+    text-align: left;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.about-us-head{
+    padding: 3% 3% 1%;
+}
+
+.number-review-about{
+    padding: 3.5%;
+}
+
+.testimonial-heading{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 1%;
+}
+
+.hr-testimonial{
+    width: 5%;
+    text-align: center;
+    margin: auto;
+    padding:20px 0;
+    border-width: 3px;
+    color: #62CDFF;
+}
+
+
+.card-body-testimonial{
+    padding: 7%;
+    box-shadow:7px 2px 30px grey;
+}
+
+.testimonial-row{
+    padding:2% 5%;
+    color: #4D455D;
+}
+
+.card-title-testimonial{
+    font-weight: 900;
+}
+
+.p-testimonial{
+    color: gray;
+}
+
+.testimonial-row-foot{
+    margin-bottom: 3rem;
+}
+
+.card-testimonial{
+    margin-bottom: 1rem;
+}
+
+
+
+/*REPORT / CONTACT*/
+
+
+.report-scam{
+    padding: 4% 5% 1%;
+    text-align: left;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+    color: #4D455D;
+}
+
+.report-head{
+    padding: 2%;
+    margin: auto;
+    color: #4D455D;
+    width: 35%;
+    text-align: center;
+}
+
+.hr-report{
+    width: 5%;
+    text-align: center;
+    margin: auto;
+    padding:20px 0;
+    border-width: 3px;
+    color: #62CDFF;
+}
+
+.row-report{
+    padding: 1% 5% 2%;
+    color: #4D455D;
+}
+
+.p-report{
+    text-align: center;
+    padding: 0 3% 1%;
+    color: #4D455D;
+}
+
+.icon-report{
+    color: #62CDFF;
+    margin: 1.5rem 0;
+}
+
+.report-h{
+    color: gray;
+}
+
+.card-report{
+    text-align: center;
+    box-shadow:7px 2px 30px grey;
+    margin: 1rem 0;
+}
+
+.contact-bar{
+    padding: 2%;
+    background-color: whitesmoke;
+}
+
+.contact-report{
+    padding: 2% 5%;
+}
+
+.contact-tab{
+    margin-bottom: 1rem;
+}
+
+.contact-t{
+    margin-bottom: 0.5rem;
+}
+
+.btn-report{
+    border-radius: 10px;
+    background-color: #62CDFF;
+    width: 25%;
+    margin: auto;
+}
+
+.btn-report:hover{
+    border: 1px solid #62CDFF;
+    color: white;
+}
+
+
+
+
+/*BLOG*/
+
+
+.blog-head{
+    padding: 3% 5% 1%;
+    text-align: left;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+}
+
+
+.search-tab-blog{
+    position: absolute;
+    top: 25%;
+    left: 67%;
+    padding:2% 5% 0 2%;
+}
+
+
+.search-tab{
+    width: 80%;
+}
+
+.searc{
+    padding: 3% 4%;
+    box-shadow:7px 2px 30px grey;
+    margin-top: 2rem;
+}
+
+@media(max-width:995px){
+    .search-tab-blog{
+        position:static;
+        margin-bottom: 3rem;
+        padding-left:2.5rem;
+    }
+}
+
+.h-search{
+    margin: 2rem 0 1rem;
+    font-weight: 900;
+}
+
+
+.Mining-crest{
+    padding:2% 5%;
+    margin-top: 2rem;
+}
+
+.Green-invest{
+    padding:2% 5%;
+}
+
+.NFT-scam{
+    padding:2% 5%;
+}
+
+.forex-scam{
+    padding:2% 5%;
+}
+
+.blog-card{
+    padding: 3%;
+    box-shadow:7px 2px 30px grey;
+
+}
+
+.clock-blog{
+    margin-left: 1rem;
+}
+
+#blog-sect{
+    color: #4D455D;
+}
+
+.blog-head{
+    color: black;
+}
+
+.blog-link-head{
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.blog-link-head:hover{
+    color: #62CDFF;
+}
+
+.link-search{
+    color: #62CDFF;
+}
+
+.btn-blog{
+    background-color: #62CDFF;
+}
+
+.home-address{
+    color: #62CDFF;
+}
+
+
+/*CAREER*/
+
+.career-head{
+    padding: 3% 5% 1%;
+    text-align: left;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+    color: #4D455D;
+}
+
+.career-note{
+    padding: 5%;
+    line-height: 1.5rem;
+    color: #4D455D;
+}
+
+.come-work{
+    margin-bottom:2.5rem;
+}
+
+.send-all{
+    margin-bottom: 6rem;
+}
+
+.p-sling{
+    margin-bottom: 2rem;
+}
+
+.thick-career{
+    font-weight: 900;
+    margin:2rem 0;
+}
+
+.cyber-h1{
+    margin-top: 3rem;
+}
+
+.cyber-h2{
+    margin-bottom: 2rem;
+}
+
+.career-sling{
+    color: #62CDFF;
+}
+
+
+
+
+/*CFD-Online*/
+
+.cfd-head{
+    padding: 3% 5% 1%;
+    text-align: left;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+    color: #4D455D;
+}
+
+.cfd-body{
+    padding: 5%;
+    color: #4D455D;
+}
+
+.sling-help{
+    color: #62CDFF;
+}
+
+.h-cfd{
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+
+/*forex*/
+
+.fx-head{
+    padding: 3% 5% 1%;
+    text-align: left;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+    color: #4D455D;
+}
+
+.fx-body{
+    padding: 5%;
+    color: #4D455D;
+}
+
+.h-forex{
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+
+/*Crypto*/
+
+.crypto-head{
+    padding: 3% 5% 1%;
+    text-align: left;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+    color: #454545;
+}
+
+.crypto-body{
+    padding: 5%;
+    color: #4D455D;
+}
+
+.h-crypto{
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+
+/*Invest*/
+
+.invest-head{
+    padding: 3% 5% 1%;
+    text-align: left;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+    color: #454545;
+}
+
+.invest-body{
+    padding: 5%;
+    color: #4D455D;
+}
+
+.table-invest{
+    padding: 5%;
+}
+
+.table-style{
+    border-collapse: collapse; 
+    width:100%;
+    height: 10000px;
+}
+
+@media(max-width:721px){
+    .table-style{
+        border-collapse: collapse; 
+        width:100%;
+        height: 10000px;
+    }
+}
